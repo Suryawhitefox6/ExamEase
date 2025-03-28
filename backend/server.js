@@ -13,7 +13,7 @@ const app = express();
 
 const storage = new Storage({
     projectId: config.projectId, // Replace with your Google Cloud project ID
-    keyFilename: 'key.json', // Replace with the path to your service account key JSON file
+    keyFilename: '/etc/secrets/key.json', // Replace with the path to your service account key JSON file
   });
 
 const bucketName = config.bucketName;
