@@ -1,0 +1,15 @@
+{
+  "port": 3000,
+  "db": {
+      "host": "localhost",
+      "user": "local",
+      "password": "root",
+      "database": "EAH_db"
+  },
+  "mongoURI":  "mongodb+srv://sohanaravapalli:1234@cluster1.dkizowz.mongodb.net/EAH_db?retryWrites=true&w=majority",
+  "projectId": "resolute-land-451612-m1",
+  "bucketName": "shobi12345",
+  "emailSender": "blackspy356@gmail.com",
+  "emailPassword": "lkuw qhst vxgw tdcp"
+}
+
