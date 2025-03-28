@@ -4,7 +4,7 @@ const { ObjectId } = require('mongodb');
 const bodyParser = require('body-parser');
 const multer = require('multer');
 const { Storage } = require('@google-cloud/storage');
-const config = require("backend/config.json");
+const config = require("config.json");
 const { v4: uuidv4 } = require('uuid');
 
 const nodeMailer = require('nodemailer');
